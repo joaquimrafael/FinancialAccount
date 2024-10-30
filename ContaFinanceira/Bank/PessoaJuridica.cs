@@ -8,7 +8,7 @@ namespace Bank
 {
     public class PessoaJuridica : Client
     {
-        public PessoaJuridica(string name, int codigo) : base()
+        public PessoaJuridica(string name, int codigo) : base(name, codigo)
         {
 
         }
